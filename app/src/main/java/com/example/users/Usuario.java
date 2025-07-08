@@ -3,12 +3,12 @@ package com.example.users;
 public class Usuario {
     int id;
     String nombre;
-    String emial;
+    String email;
 
-    public Usuario(int id, String nombre, String emial) {
+    public Usuario(int id, String nombre, String email) {
         this.id = id;
         this.nombre = nombre;
-        this.emial = emial;
+        this.email = email;
     }
 
     public int getId() {
@@ -27,11 +27,11 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getEmial() {
-        return emial;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmial(String emial) {
-        this.emial = emial;
+    public void setEmail(String emial) {
+        this.email = emial;
     }
 }
